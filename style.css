@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding:0;
+}
+
+
+h1 {
+  font-family: "Comic Sans MS";
+  margin: 0;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Comic Sans MS";
+  margin: 0;
+  font-size: 25px;
+}
+
+h4 {
+  font: 20px "Comic Sans MS";
+  margin: 0;
+}
+
+.intro {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  margin-bottom: 30px;
+}
+
+.title {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 13px;
+  margin: 0 20px;
+}
+
+.contact-det {
+  display: inline-block;
+  float: right;
+  padding: 15px;
+  margin: 0 20px;
+}
+
+.edu, .skills,.projects,.links {
+  margin: 10px;
+  padding: 10px;
+}
+
+table {
+  box-shadow: 2px 2px 30px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead, tbody {
+  font: 20px Courier;
+  text-align: center;
+}
+
+tbody {
+  font-weight: lighter;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.prog-skills {
+  float: left;
+  width: 25%;
+  margin: 10px 0 10px 40px;
+}
+
+.dev-skills {
+  clear: right;
+  float: left;
+  width: 25%;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.projects,.links{
+  float: left;
+  clear: both;
+}
+
+ol,ul{
+  margin-left: 40px;
+  margin-top: 0;
+}
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
